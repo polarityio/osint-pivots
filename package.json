@@ -4,6 +4,5 @@
   "description": "Recognizes various entity types and allows an analyst to quickly pivot to pre-configured OSINT search(es)",
   "version": "3.0.0-beta",
   "private": true,
-  "dependencies": {
-  }
+  "dependencies": {}
 }
