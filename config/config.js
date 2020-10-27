@@ -20,6 +20,6 @@ module.exports = {
         passphrase: '',
         ca: '',
         proxy: '',
-        rejectUnauthorized: false
+        rejectUnauthorized: true
     }
 };
