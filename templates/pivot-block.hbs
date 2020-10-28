@@ -2,33 +2,33 @@
   <h1 class="p-title">
       {{fa-icon "browser" fixedWidth=true}}  Select a Domain Search to Execute
   </h1>
-  <table class="p-table" style="margin-top:10px;">
+  <table class="p-table" style="margin-top:5px;">
     <tbody>
-      <tr><td><a class="p-link" href="https://www.virustotal.com/gui/search/{{block.entity.value}}">{{fa-icon "globe"}} VirusTotal Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://sitereview.bluecoat.com/#/lookup-result/{{block.entity.value}}">{{fa-icon "globe"}} Symantec/BlueCoat WebPulse Site Review Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://urlscan.io/domain/{{block.entity.value}}">{{fa-icon "globe"}} URLScan.io Domain Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://talosintelligence.com/reputation_center/lookup?search={{block.entity.value}}">{{fa-icon "globe"}} Cisco Talos Domain Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://urlhaus.abuse.ch/browse.php?search={{block.entity.value}}">{{fa-icon "globe"}} URLhaus Database Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://www.urlvoid.com/scan/{{block.entity.value}}">{{fa-icon "globe"}} URLVoid Domain Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="http://whois.domaintools.com/{{block.entity.value}}">{{fa-icon "globe"}} DomainTools Whois Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://www.abuseipdb.com/check/{{block.entity.value}}">{{fa-icon "globe"}} AbuseIPDB Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://www.shodan.io/search?query={{block.entity.value}}">{{fa-icon "globe"}} Shodan Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://twitter.com/search?q={{block.entity.value}}">{{fa-icon "globe"}} Twitter Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://otx.alienvault.com/indicator/domain/{{block.entity.value}}">{{fa-icon "globe"}} Alienvault OTX Domain Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://talosintelligence.com/reputation_center/lookup?search={{block.entity.value}}">{{fa-icon "globe"}} Cisco Talos Domain Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="http://whois.domaintools.com/{{block.entity.value}}">{{fa-icon "globe"}} DomainTools Whois Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="http://www.fortiguard.com/webfilter?q={{block.entity.value}}">{{fa-icon "globe"}} FortiGuard Category Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://github.com/search?q={{block.entity.value}}&type=code">{{fa-icon "globe"}} GitHub Code Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://transparencyreport.google.com/safe-browsing/search?url={{block.entity.value}}">{{fa-icon "globe"}} Google Safe Browsing Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://hashdd.com/i/{{block.entity.value}}">{{fa-icon "globe"}} HashDD Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://exchange.xforce.ibmcloud.com/url/{{block.entity.value}}">{{fa-icon "globe"}} IBM X-Force-Exchange Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://www.joesandbox.com/search?q={{block.entity.value}}">{{fa-icon "globe"}} Joe Sandbox Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="http://www.isithacked.com/check/{{block.entity.value}}">{{fa-icon "globe"}} Is it Hacked? Domain Check {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://www.joesandbox.com/search?q={{block.entity.value}}">{{fa-icon "globe"}} Joe Sandbox Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://opentip.kaspersky.com/{{block.entity.value}}">{{fa-icon "globe"}} Kaspersky Threat Intel Portal Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="http://www.malwaredomainlist.com/mdl.php?search={{block.entity.value}}">{{fa-icon "globe"}} Malware Domain List Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://mxtoolbox.com/SuperTool.aspx?action=blacklist%3a{{block.entity.value}}">{{fa-icon "globe"}} MX Toolbox Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://otx.alienvault.com/indicator/domain/{{block.entity.value}}">{{fa-icon "globe"}} Alienvault OTX Domain Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://community.riskiq.com/research?query={{block.entity.value}}">{{fa-icon "globe"}} RiskIQ Community Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://sitecheck.sucuri.net/results/{{block.entity.value}}">{{fa-icon "globe"}} Sucuri SiteCheck {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://www.google.com/search?q=site%3Amalware-traffic-analysis.net+{{block.entity.value}}">{{fa-icon "globe"}} Malware-Traffic-Analysis.NET Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://mxtoolbox.com/SuperTool.aspx?action=blacklist%3a{{block.entity.value}}">{{fa-icon "globe"}} MX Toolbox Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://community.riskiq.com/research?query={{block.entity.value}}">{{fa-icon "globe"}} RiskIQ Community Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://www.shodan.io/search?query={{block.entity.value}}">{{fa-icon "globe"}} Shodan Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://sitecheck.sucuri.net/results/{{block.entity.value}}">{{fa-icon "globe"}} Sucuri SiteCheck {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://sitereview.bluecoat.com/#/lookup-result/{{block.entity.value}}">{{fa-icon "globe"}} Symantec/BlueCoat WebPulse Site Review Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://www.threatminer.org/domain.php?q={{block.entity.value}}">{{fa-icon "globe"}} ThreatMiner Domain Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://github.com/search?q={{block.entity.value}}&type=code">{{fa-icon "globe"}} GitHub Code Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://twitter.com/search?q={{block.entity.value}}">{{fa-icon "globe"}} Twitter Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://urlhaus.abuse.ch/browse.php?search={{block.entity.value}}">{{fa-icon "globe"}} URLhaus Database Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://urlscan.io/domain/{{block.entity.value}}">{{fa-icon "globe"}} URLScan.io Domain Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://www.urlvoid.com/scan/{{block.entity.value}}">{{fa-icon "globe"}} URLVoid Domain Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://www.virustotal.com/gui/search/{{block.entity.value}}">{{fa-icon "globe"}} VirusTotal Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
     </tbody>
   </table>
 {{/if}}
@@ -36,23 +36,23 @@
   <h1 class="p-title">
       {{fa-icon "hashtag" fixedWidth=true}}  Select a Hash Search to Execute
   </h1>
-  <table class="p-table" style="margin-top:10px;">
+  <table class="p-table" style="margin-top:5px;">
     <tbody>
-      <tr><td><a class="p-link" href="https://www.virustotal.com/gui/search/{{block.entity.value}}">{{fa-icon "globe"}} VirusTotal Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://otx.alienvault.com/indicator/file/{{block.entity.value}}">{{fa-icon "globe"}} Alienvault OTX Hash Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://app.any.run/submissions/#filehash:{{block.entity.value}}">{{fa-icon "globe"}} ANY.RUN Hash Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://www.hybrid-analysis.com/search?query={{block.entity.value}}">{{fa-icon "globe"}} Hybrid-Analysis Hash Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://urlscan.io/search/#hash:{{block.entity.value}}">{{fa-icon "globe"}} URLScan.io Hash Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://urlhaus.abuse.ch/browse.php?search={{block.entity.value}}">{{fa-icon "globe"}} URLhaus Database Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://github.com/search?q={{block.entity.value}}&type=code">{{fa-icon "globe"}} GitHub Code Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://hashdd.com/i/{{block.entity.value}}">{{fa-icon "globe"}} HashDD Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://www.hybrid-analysis.com/search?query={{block.entity.value}}">{{fa-icon "globe"}} Hybrid-Analysis Hash Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://www.joesandbox.com/search?q={{block.entity.value}}">{{fa-icon "globe"}} Joe Sandbox Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://opentip.kaspersky.com/{{block.entity.value}}">{{fa-icon "globe"}} Kaspersky Threat Intel Portal Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://polyswarm.network/scan/results/file/{{block.entity.value}}">{{fa-icon "globe"}} PolySwarm Hash Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://otx.alienvault.com/indicator/file/{{block.entity.value}}">{{fa-icon "globe"}} Alienvault OTX Hash Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://community.riskiq.com/research?query={{block.entity.value}}">{{fa-icon "globe"}} RiskIQ Community Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://www.google.com/search?q=site%3Amalware-traffic-analysis.net+{{block.entity.value}}">{{fa-icon "globe"}} Malware-Traffic-Analysis.NET Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://polyswarm.network/scan/results/file/{{block.entity.value}}">{{fa-icon "globe"}} PolySwarm Hash Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://community.riskiq.com/research?query={{block.entity.value}}">{{fa-icon "globe"}} RiskIQ Community Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://www.threatminer.org/sample.php?q={{block.entity.value}}">{{fa-icon "globe"}} ThreatMiner Hash Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://twitter.com/search?q={{block.entity.value}}">{{fa-icon "globe"}} Twitter Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://github.com/search?q={{block.entity.value}}&type=code">{{fa-icon "globe"}} GitHub Code Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://urlhaus.abuse.ch/browse.php?search={{block.entity.value}}">{{fa-icon "globe"}} URLhaus Database Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://urlscan.io/search/#hash:{{block.entity.value}}">{{fa-icon "globe"}} URLScan.io Hash Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://www.virustotal.com/gui/search/{{block.entity.value}}">{{fa-icon "globe"}} VirusTotal Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
     </tbody>
   </table>
 {{/if}}
@@ -60,34 +60,34 @@
   <h1 class="p-title">
       {{fa-icon "terminal" fixedWidth=true}}  Select a IP Search to Execute
   </h1>
-  <table class="p-table" style="margin-top:10px;">
+  <table class="p-table" style="margin-top:5px;">
     <tbody>
-      <tr><td><a class="p-link" href="https://www.virustotal.com/gui/search/{{block.entity.value}}">{{fa-icon "globe"}} VirusTotal Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://talosintelligence.com/reputation_center/lookup?search={{block.entity.value}}">{{fa-icon "globe"}} Cisco Talos Domain Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://urlscan.io/ip/{{block.entity.value}}">{{fa-icon "globe"}} URLScan.io IP Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://urlhaus.abuse.ch/browse.php?search={{block.entity.value}}">{{fa-icon "globe"}} URLhaus Database Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://www.urlvoid.com/ip/{{block.entity.value}}">{{fa-icon "globe"}} URLVoid IP Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="http://whois.domaintools.com/{{block.entity.value}}">{{fa-icon "globe"}} DomainTools Whois Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://www.abuseipdb.com/check/{{block.entity.value}}">{{fa-icon "globe"}} AbuseIPDB Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://www.shodan.io/host/{{block.entity.value}}">{{fa-icon "globe"}} Shodan Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://otx.alienvault.com/indicator/domain/{{block.entity.value}}">{{fa-icon "globe"}} Alienvault OTX Domain Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://otx.alienvault.com/indicator/ip/{{block.entity.value}}">{{fa-icon "globe"}} Alienvault OTX IP Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://auth0.com/signals/ip/{{block.entity.value}}-report">{{fa-icon "globe"}} Auth0 Signals Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://talosintelligence.com/reputation_center/lookup?search={{block.entity.value}}">{{fa-icon "globe"}} Cisco Talos Domain Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="http://whois.domaintools.com/{{block.entity.value}}">{{fa-icon "globe"}} DomainTools Whois Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="http://www.fortiguard.com/webfilter?q={{block.entity.value}}">{{fa-icon "globe"}} FortiGuard Category Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://github.com/search?q={{block.entity.value}}&type=code">{{fa-icon "globe"}} GitHub Code Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://transparencyreport.google.com/safe-browsing/search?url={{block.entity.value}}">{{fa-icon "globe"}} Google Safe Browsing Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://hashdd.com/i/{{block.entity.value}}">{{fa-icon "globe"}} HashDD Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://exchange.xforce.ibmcloud.com/ip/{{block.entity.value}}">{{fa-icon "globe"}} IBM X-Force-Exchange Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://www.joesandbox.com/search?q={{block.entity.value}}">{{fa-icon "globe"}} Joe Sandbox Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://opentip.kaspersky.com/{{block.entity.value}}">{{fa-icon "globe"}} Kaspersky Threat Intel Portal Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://safeweb.norton.com/report/show?url={{block.entity.value}}">{{fa-icon "globe"}} Norton Safe Web Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="http://www.malwaredomainlist.com/mdl.php?search={{block.entity.value}}">{{fa-icon "globe"}} Malware Domain List Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://mxtoolbox.com/SuperTool.aspx?action=blacklist%3a{{block.entity.value}}">{{fa-icon "globe"}} MX Toolbox Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://otx.alienvault.com/indicator/domain/{{block.entity.value}}">{{fa-icon "globe"}} Alienvault OTX Domain Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://otx.alienvault.com/indicator/ip/{{block.entity.value}}">{{fa-icon "globe"}} Alienvault OTX IP Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://community.riskiq.com/research?query={{block.entity.value}}">{{fa-icon "globe"}} RiskIQ Community Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://sitecheck.sucuri.net/results/{{block.entity.value}}">{{fa-icon "globe"}} Sucuri SiteCheck {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://www.google.com/search?q=site%3Amalware-traffic-analysis.net+{{block.entity.value}}">{{fa-icon "globe"}} Malware-Traffic-Analysis.NET Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://mxtoolbox.com/SuperTool.aspx?action=blacklist%3a{{block.entity.value}}">{{fa-icon "globe"}} MX Toolbox Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://safeweb.norton.com/report/show?url={{block.entity.value}}">{{fa-icon "globe"}} Norton Safe Web Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://community.riskiq.com/research?query={{block.entity.value}}">{{fa-icon "globe"}} RiskIQ Community Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://www.shodan.io/host/{{block.entity.value}}">{{fa-icon "globe"}} Shodan Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://sitecheck.sucuri.net/results/{{block.entity.value}}">{{fa-icon "globe"}} Sucuri SiteCheck {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://www.threatminer.org/host.php?q={{block.entity.value}}">{{fa-icon "globe"}} ThreatMiner IP Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://twitter.com/search?q={{block.entity.value}}">{{fa-icon "globe"}} Twitter Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://github.com/search?q={{block.entity.value}}&type=code">{{fa-icon "globe"}} GitHub Code Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://urlhaus.abuse.ch/browse.php?search={{block.entity.value}}">{{fa-icon "globe"}} URLhaus Database Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://urlscan.io/ip/{{block.entity.value}}">{{fa-icon "globe"}} URLScan.io IP Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://www.urlvoid.com/ip/{{block.entity.value}}">{{fa-icon "globe"}} URLVoid IP Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://www.virustotal.com/gui/search/{{block.entity.value}}">{{fa-icon "globe"}} VirusTotal Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
     </tbody>
   </table>
 {{/if}}
@@ -95,20 +95,20 @@
   <h1 class="p-title">
       {{fa-icon "bug" fixedWidth=true}}  Select a CVE Search to Execute
   </h1>
-  <table class="p-table" style="margin-top:10px;">
+  <table class="p-table" style="margin-top:5px;">
     <tbody>
+      <tr><td><a class="p-link" href="https://otx.alienvault.com/indicator/cve/{{block.entity.value}}">{{fa-icon "globe"}} Alienvault OTX CVE Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://cve.circl.lu/cve/{{block.entity.value}}">{{fa-icon "globe"}} CIRCL CVE Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://github.com/search?q={{block.entity.value}}&type=code">{{fa-icon "globe"}} GitHub Code Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://exchange.xforce.ibmcloud.com/vulnerabilities/{{block.entity.value}}">{{fa-icon "globe"}} IBM X-Force-Exchange Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://www.google.com/search?q=site%3Amalware-traffic-analysis.net+{{block.entity.value}}">{{fa-icon "globe"}} Malware-Traffic-Analysis.NET Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/{{block.entity.value}}">{{fa-icon "globe"}} Microsoft Advisory Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name={{block.entity.value}}">{{fa-icon "globe"}} MITRE CVE Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://nvd.nist.gov/vuln/detail/{{block.entity.value}}">{{fa-icon "globe"}} NIST CVE Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/{{block.entity.value}}">{{fa-icon "globe"}} Microsoft Advisory Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://www.rapid7.com/db/?q={{block.entity.value}}">{{fa-icon "globe"}} Rapid7 Vulnerability and Exploit DB {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://exploits.shodan.io/?q={{block.entity.value}}">{{fa-icon "globe"}} Shodan Exploit Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://www.tenable.com/cve/{{block.entity.value}}">{{fa-icon "globe"}} Tenable CVE Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://exchange.xforce.ibmcloud.com/vulnerabilities/{{block.entity.value}}">{{fa-icon "globe"}} IBM X-Force-Exchange Lookup {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://otx.alienvault.com/indicator/cve/{{block.entity.value}}">{{fa-icon "globe"}} Alienvault OTX CVE Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://www.google.com/search?q=site%3Amalware-traffic-analysis.net+{{block.entity.value}}">{{fa-icon "globe"}} Malware-Traffic-Analysis.NET Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://twitter.com/search?q={{block.entity.value}}">{{fa-icon "globe"}} Twitter Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://github.com/search?q={{block.entity.value}}&type=code">{{fa-icon "globe"}} GitHub Code Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
     </tbody>
   </table>
 {{/if}}
@@ -116,13 +116,13 @@
   <h1 class="p-title">
       {{fa-icon "envelope" fixedWidth=true}}  Select an Email Search to Execute
   </h1>
-  <table class="p-table" style="margin-top:10px;">
+  <table class="p-table" style="margin-top:5px;">
     <tbody>
       <tr><td><a class="p-link" href="https://otx.alienvault.com/indicator/email/{{block.entity.value}}">{{fa-icon "globe"}} Alienvault OTX Email Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://community.riskiq.com/research?query={{block.entity.value}}">{{fa-icon "globe"}} RiskIQ Community Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://www.google.com/search?q=site%3Amalware-traffic-analysis.net+{{block.entity.value}}">{{fa-icon "globe"}} Malware-Traffic-Analysis.NET Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
-      <tr><td><a class="p-link" href="https://twitter.com/search?q={{block.entity.value}}">{{fa-icon "globe"}} Twitter Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
       <tr><td><a class="p-link" href="https://github.com/search?q={{block.entity.value}}&type=code">{{fa-icon "globe"}} GitHub Code Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://www.google.com/search?q=site%3Amalware-traffic-analysis.net+{{block.entity.value}}">{{fa-icon "globe"}} Malware-Traffic-Analysis.NET Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://community.riskiq.com/research?query={{block.entity.value}}">{{fa-icon "globe"}} RiskIQ Community Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
+      <tr><td><a class="p-link" href="https://twitter.com/search?q={{block.entity.value}}">{{fa-icon "globe"}} Twitter Search {{fa-icon "external-link-square" class="external-link-icon"}}</a></td></tr>
     </tbody>
   </table>
 {{/if}}
