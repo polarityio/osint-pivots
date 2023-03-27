@@ -1,4 +1,5 @@
 {
+  "polarityIntegrationUuid": "e7011870-cce1-11ed-aeee-075d3490155d",
   "name": "OSINT Pivot",
   "acronym": "PIVOT",
   "entityTypes": ["IPv4", "domain", "hash", "email", "cve"],
