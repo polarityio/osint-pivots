@@ -140,7 +140,7 @@
     </tbody>
   </table>
 {{/if}}
-{{#if (eq block.entity.subtype "custom.msftkb")}}
+{{#if isMsftkbEntity}}
   <h1 class="p-title">
       {{fa-icon "browser" fixedWidth=true}}  Select a Search to Execute
   </h1>
@@ -153,7 +153,7 @@
     </tbody>
   </table>
 {{/if}}
-{{#if (eq block.entity.subtype "custom.adobe")}}
+{{#if isAdobeEntity}}
   <h1 class="p-title">
       {{fa-icon "browser" fixedWidth=true}}  Select a Search to Execute
   </h1>
