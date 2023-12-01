@@ -6,8 +6,8 @@ function startup(logger) {
 
 function doLookup(entities, options, cb) {
   let lookupResults = [];
-  
-  entities.forEach(entity => {
+
+  entities.forEach((entity) => {
     lookupResults.push({
       entity: entity,
       data: {
