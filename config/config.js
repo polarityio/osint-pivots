@@ -1,7 +1,7 @@
 module.exports = {
   name: 'OSINT Pivot',
   acronym: 'PIVOT',
-  entityTypes: ['IPv4', 'domain', 'hash', 'email', 'cve'],
+  entityTypes: ['IPv4', 'domain', 'MD5', 'SHA1', 'SHA256', 'email', 'cve'],
   customTypes: [
     {
       key: 'msftkb',
@@ -30,6 +30,6 @@ module.exports = {
     key: '',
     passphrase: '',
     ca: '',
-    proxy: ""
+    proxy: ''
   }
 };
