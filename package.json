@@ -1,6 +1,6 @@
 {
   "name": "OSINT-Pivot",
-  "version": "3.0.12",
+  "version": "3.0.13",
   "main": "./integration.js",
   "description": "Recognizes various entity types and allows an analyst to quickly pivot to pre-configured OSINT search(es)",
   "private": true,

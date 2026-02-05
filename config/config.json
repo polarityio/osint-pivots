@@ -2,7 +2,15 @@
   "polarityIntegrationUuid": "e7011870-cce1-11ed-aeee-075d3490155d",
   "name": "OSINT Pivot",
   "acronym": "PIVOT",
-  "entityTypes": ["IPv4", "domain", "MD5", "SHA1", "SHA256", "email", "cve"],
+  "entityTypes": [
+    "IPv4",
+    "domain",
+    "MD5",
+    "SHA1",
+    "SHA256",
+    "email",
+    "cve"
+  ],
   "customTypes": [
     {
       "key": "msftkb",
@@ -25,5 +33,10 @@
   "logging": {
     "level": "info"
   },
-  "onDemandOnly": true
+  "onDemandOnly": true,
+  "reducer": {
+    "details": {
+      "file": "./reducers/details.json"
+    }
+  }
 }
